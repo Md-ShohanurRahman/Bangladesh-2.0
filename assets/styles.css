@@ -35,6 +35,14 @@
     font-size: 20px;
     font-weight: 700
   }
+  .display-flex{
+    display: flex;
+  }
+  .r-btn{
+    border-radius: 8px;
+
+background: rgb(0, 106, 80);
+  }
 
 
   /* shared style end here  */
@@ -151,4 +159,49 @@
     }
 
     /* styles for vision section starts here  */
+    /* Styles for recent section starts here  */
+.recent{
+    
+    height: 899px;
+}
+.recent-card{
+    border-radius: 24px;
+
+background: rgba(242, 240, 240, 0.897);
+padding: 50px;
+margin: 24px 0px;
+
+display: flex;
+/* justify-content: space-between; */
+}
+.recent-card-img img {
+/* width: 100%; */
+border-radius: 24px;
+}
+.recent-card-description{
+    flex-direction: column;
+}
+.recent-m{
+   
+    margin-top: 0px;
+} 
+
+.recent-card-description{
+   
+    margin-left: 40px;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.recent-card-2{
+    flex-direction: row-reverse;
+}
+.recent-card-2 .recent-card-description{
+    margin-left: 0px;
+    margin-right: 55px;
+}
+
+
+
+    /* Styles for recent section ends  here  */
 
