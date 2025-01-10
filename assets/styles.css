@@ -9,6 +9,35 @@
     font-weight: 400;
     font-style: normal;
   }
+
+  /* shared style starts here  */
+  .make-center{
+    margin: 0 auto ;
+    max-width: 1280px ;
+  }
+  .make-center-t-s{
+    margin-top: 85px;
+  }
+  .title-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .second-heading{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .third-heading{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700
+  }
+
+
+  /* shared style end here  */
   /* style for header part starts here  */
 
   header{
@@ -17,9 +46,9 @@
 
     background: rgb(198, 228, 214);
     
-    max-width: 1280px ;
+    
     height: 580px;
-    margin: 0 auto ;
+  
     
    
    
@@ -74,4 +103,52 @@
 }
    
     /* style for header part ends here  */
+
+    /* styles for vision section starts here  */
+    .card-btn{
+        color: rgb(255, 255, 255);
+
+    font-size: 16px;
+    font-weight: 600;
+    padding: 11px 20px 11px 20px;
+    border-radius: 8px;
+    border: none;
+    }
+    .cb1{
+        background: rgb(84, 144, 245);
+    }
+
+    .cb2{
+        background-color: rgb(9, 161, 92);
+    }
+    .cb3{
+        background-color: rgb(255, 194, 57);
+    }
+    .card{
+        
+        padding: 32px;
+        border-radius: 16px;
+        
+      
+
+    }
+    .c1{
+        background-color:rgba(84, 144, 245, 0.2); ;
+    }
+    .c2{
+        background-color:rgb(198, 228, 214) ;
+        
+    }
+    .c3{
+        background-color: rgb(247, 235, 207);
+    }
+
+    .card-holder{
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    /* styles for vision section starts here  */
 
