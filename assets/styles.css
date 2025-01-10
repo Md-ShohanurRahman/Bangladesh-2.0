@@ -293,4 +293,47 @@ background: rgb(198, 228, 214);
 
     
      /* style for newsletter section ends here  */
+     /* style for hover starts here  */
+    .banner-btn:hover{
+        background-color: rgba(167, 233, 13, 0.767);
+        /* color: rgba(0, 0, 255, 0.595); */
+    }
+    .cb1:hover{
+       background-color: #ab11bfd4; 
+    }
+    .cb2:hover{
+        background-color: #9f2f06e3;
+    }
+    .cb3:hover{
+        background-color: #3dec07;
+    }
+    .hb1:hover{
+        background-color: #05deff;
+    }
+    .hb2:hover{
+        background-color: #7105ff;
+    }
+
+    .dc1:hover{
+background-color: #7105ff89;
+    }
+    .dc2:hover{
+       background-color: #05deff; 
+      
+    }
+    .dc3:hover{
+        background-color: #ff05da89;
+
+     }
+    .dc4:hover{
+     background-color: #05c9ff89;
+    }
+    .dc5:hover{
+        background-color: #5805ffce;
+    }
+    .dc6:hover{
+        background-color: #b405ffc1;
+    }
+
+     /* style for hover ends  here  */
 
