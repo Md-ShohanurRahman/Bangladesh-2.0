@@ -167,11 +167,11 @@ background: rgb(0, 106, 80);
 .recent-card{
     border-radius: 24px;
 
-background: rgba(242, 240, 240, 0.897);
+background: rgba(233, 230, 230, 0.585);
 padding: 50px;
 margin: 24px 0px;
 
-display: flex;
+display:flex;
 /* justify-content: space-between; */
 }
 .recent-card-img img {
@@ -336,4 +336,28 @@ background-color: #7105ff89;
     }
 
      /* style for hover ends  here  */
+
+     /* style for motivation section starts here  */
+    .motivation{
+        
+        padding: 50px;
+       
+        border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+
+    background: rgba(248, 248, 248, 0.282);
+    padding-top: 0px;
+    }
+    .dr-younus{
+        margin: 0px;
+    }
+    .quote-img{
+        
+        position: relative;
+        top: 45px;
+        left: -5px;
+    }
+    
+
+     /* style for motivation section ends here  */
 
